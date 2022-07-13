@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by arngrimc</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./styleUser.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="http://manos.malihu.gr/repository/custom-scrollbar/demo/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="http://manos.malihu.gr/repository/custom-scrollbar/demo/jquery.mCustomScrollbar.concat.min.js"></script>
+    <style type="text/css"></style>
+    <script src="script.js"></script>
+
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+    <!-- formato do box  -->
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+    <!-- formato do video  -->
+    <link rel="stylesheet" href="./styleVideo.css">
+  </head>
+
+  <body>
+    <div class="main-content">
+      <div class="top-bar">
+        <div class="top-logo">
+          <h1>Logo</h1>
+        </div>
+        <div class="container-input">
+          <input class="top-bar-textbox" placeholder="search">
+          <i class="top-bar-icon fas fa-search"></i>
+        </div>
+        <div class="top-bar-profile">
+          <div class="top-bar-user-image">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <ul class="top-bar-user-info">
+            <li class="top-bar-user-email">admin@example.com</li>
+            <li class="top-bar-user-role">Admin</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <form action="#" id="booking-form">
+
+        <div class="tab-content">
+          <div class="tab-pane" id="step1">
+            <h1>Escolha o Campo </h1>
+            <ul>
+              <li>
+                <div class="campo">
+                  <img src="./img/1.png" alt="" class=" next-btn1" onclick="futonDisplay()">
+                </div>
+                <div class="campo" id="twoPhone">
+                  <img src="./img/2.png" alt="" class=" next-btn1" onclick="futonDisplay()">
+                </div>
+
+                <div class="campo">
+
+                  <img src="./img/12171-v01.png" alt="" class=" next-btn1" onclick="futonDisplay()">
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="tab-pane" id="step2">
+            <ul class="twoBox">
+              <li>
+                <h3>Selecione a Data</h3>
+                <input type="date" name="" id="">
+                <h3>selecione a hora </h3>
+                <h4>Manhã</h4>
+                <ul class="timepoket">
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">07:00</li>
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">09:00</li>
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">11:00</li>
+                </ul>
+                <h4>Tarde</h4>
+                <ul class="timepoket">
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">14:00</li>
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">16:00</li>
+                </ul>
+                <h4>Noite</h4>
+                <ul class="timepoket">
+                  <li class=" next-btn2" id="pageForVideo" onclick="GFG_Fun()">19:00</li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <div class="tab-pane" id="step3">
+
+
+
+          </div>
+        </div>
+
+        <div class="all" id="all">
+          <section>
+            <div class="page-block" id="page-blockVideo">
+              <div class="page-content text-padding">
+                <div class="swiper-container videoswiper noselect">
+                  <h1>Selecione o Seu Video <a href="">See all</a></h1>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper-card">
+                        <div class="card-img"
+                          style="background-image:url(//i.vimeocdn.com/video/215776595_780x439.webp)">
+                          <a href="//vimeo.com/18957555"></a>
+                        </div>
+                        <div class="card-info">
+                          <h2>Showreel 2013 - m.rckmn.nl</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-card">
+                        <div class="card-img">
+                          <a href="//vimeo.com/18957555"></a>
+                        </div>
+                        <div class="card-info">
+                          <h2>Video headline 2</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-card">
+                        <div class="card-img">
+                          <a href="//vimeo.com/18957555"></a>
+                        </div>
+                        <div class="card-info">
+                          <h2>Video with longer headline</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-card">
+                        <div class="card-img">
+                          <a href="//vimeo.com/18957555"></a>
+                        </div>
+                        <div class="card-info">
+                          <h2>Video with extra long headline to demonstrate line breaking</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="progress-wrap">
+          <div class="line-progress-bar">
+            <div class="line"></div>
+            <ul class="checkout-bar">
+              <li class="progressbar-dots active"><span>step 1</span></li>
+              <li class="progressbar-dots"><span>step 2</span></li>
+              <li class="progressbar-dots"><span>Final step</span></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div id="loader" style="display: none;">
+          <img src="//d2erq0e4xljvr7.cloudfront.net/assets/img/ring.svg">
+        </div>
+      </form>
+
+
+
+
+      <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='//cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+
+      <script src='//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'>
+
+      </script>
+      <script src="./scriptVideo.js"></script>
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js'></script>
+      <script src="./scriptUser.js"></script>
+
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a class="main-menu-home" href="index.html">
+              <i class="fa fa-home " style="padding: 15px;"></i>
+              <span class="nav-text">
+                Home
+              </span>
+            </a>
+
+          </li>
+          <li class="">
+            <a href="#">
+              <i class="fa fa-laptop "></i>
+              <span class="nav-text">
+                Live
+              </span>
+            </a>
+
+          </li>
+          <li class="">
+            <a href="#">
+              <i class="fa fa-list "></i>
+              <span class="nav-text">
+                Option
+              </span>
+            </a>
+
+
+        </ul>
+      </nav>
+  </body>
+
+  </html>
+  <!-- partial -->
+
+</body>
+
+</html>

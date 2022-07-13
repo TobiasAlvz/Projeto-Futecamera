@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload with Progress Bar | CodingNepal</title>
+  <link rel="stylesheet" href="styleAdmin.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="main-content">
+    <div class="top-bar">
+      <div class="top-logo">
+        <h1>Logo</h1>
+      </div>
+      <div class="container-input">
+        <input class="top-bar-textbox" placeholder="search">
+        <i class="top-bar-icon fas fa-search"></i>
+      </div>
+      <div class="top-bar-profile">
+        <div class="top-bar-user-image">
+          <i class="fas fa-user-circle"></i>
+        </div>
+        <ul class="top-bar-user-info">
+          <li class="top-bar-user-email">Admin</li>
+          <li class="top-bar-user-role">Admin</li>
+        </ul>
+      </div>
+    </div>
+    <div class="conteiner" id="elemento">
+
+      <div class="wrapper" id="elemento">
+        <header>Uploade do video</header>
+        <form action="#">
+          <input class="file-input" type="file" name="file" hidden>
+          <i class="fas fa-cloud-upload-alt"></i>
+          <p>selecione o video </p>
+        </form>
+        <section class="progress-area"></section>
+        <section class="uploaded-area"></section>
+      </div>
+
+
+
+
+    </div>
+    <div class="elementos" id="elemento">
+      <h3 class="elementoName">Nome do campo</h3>
+      <input class="nameClub" type="text" name="" id="">
+      <h3 class="elementoName">Data</h3>
+      <input class="nameClub" class="data" type="date" name="" id="">
+      <h3 class="elementoName">Hora</h3>
+      <input class="nameClub" type="time" name="" id="">
+      </ul> <input type="button" value="Enviar" class="buttonOK">
+    </div>
+    <div id="linha-vertical"></div>
+
+
+    <div class="conteinerCadastro" id="elemento2">
+      <form id="file-upload-form" class="uploader">
+        <h1> Selecione a Imagem do Campo</h1>
+        <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+        <label for="file-upload" id="file-drag">
+          <img id="file-image" src="#" alt="Preview" class="hidden">
+          <div id="start">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <div>Selecione a imagem aqui</div>
+            <div id="notimage" class="hidden">
+              Selecione uma imagem</div>
+            <span id="file-upload-btn" class="btn btn-primary">
+              Selecione uma imagem</span>
+          </div>
+          <div id="response" class="hidden">
+            <div id="messages"></div>
+            <progress class="progress" id="file-progress" value="0">
+              <span>0</span>%
+            </progress>
+          </div>
+        </label>
+      </form>
+      <div class="infoUpload">
+        <h2>Nome do Campo</h2>
+        <input type="text" class="nameCampo">
+        <h2>IP Primeira Camerra</h2>
+        <input type="text" class="camera1">
+        <h2>IP Segunda Camra </h2>
+        <input type="text" class="camera2">
+
+        <input type="button" value="Enviar" class="buttonEnvia">
+      </div>
+
+    </div>
+
+  </div>
+  <nav class="main-menu">
+    <ul>
+      <li>
+        <a class="main-menu-home" href="index.html">
+          <i class="fa fa-home " style="padding: 15px;"></i>
+          <span class="nav-text">
+            Home
+          </span>
+        </a>
+
+      </li>
+      <li class="">
+        <a href="#">
+
+
+          <i class="fa fas fa-cloud-upload-alt"> </i>
+          <span class="nav-text" onclick="funçãoTime()">
+            Live
+          </span>
+        </a>
+
+      </li>
+      <li class="">
+        <a href="#">
+          <i class="fa fa-list "></i>
+          <span class="nav-text" onclick="funçãoTime()">
+            Cadastra Campo
+          </span>
+        </a>
+
+
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
